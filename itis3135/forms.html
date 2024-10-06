@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms || Amin Saadaoui</title>
+    <link rel="stylesheet" href="styles/default.css">
+    <script src="https://lint.page/kit/4d0fe3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <h1>Amin Saadaoui's Avid Snow Leopard || ITIS 3135</h1>
+        <nav>
+            <ul>
+                <li><a href="https://webpages.charlotte.edu/asaadao1/itis3135/">Home</a></li>
+                <li><a href="introduction.html">Introduction</a></li>
+                <li><a href="contract.html">Contract</a></li>             
+                <li><a href="about.html">About</a></li>
+                <li><a href="tables.html">HTML Tables</a></li>
+                <li><a href="forms.html">HTML Forms</a></li>
+                <li><a href="website_evaluations.html">Website Evaluations</a></li>
+            </ul>
+        </nav>
+        <nav>
+        <ul>
+            <li><a href="bAd wEirD page.html">Crappy Page</a></li>
+        </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>HTML Forms</h2>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" placeholder="123-456-7890" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="example@mail.com" required>
+
+            <fieldset>
+                <legend>Choose your favorite colors:</legend>
+                <label><input type="checkbox" name="colors" value="red"> Red</label>
+                <label><input type="checkbox" name="colors" value="blue"> Blue</label>
+                <label><input type="checkbox" name="colors" value="green"> Green</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Preferred Contact Method:</legend>
+                <label><input type="radio" name="contact_method" value="email" required> Email</label>
+                <label><input type="radio" name="contact_method" value="phone"> Phone</label>
+            </fieldset>
+
+            <label for="service">Select a service:</label>
+            <select id="service" name="service" required>
+                <option value="">--Please choose an option--</option>
+                <option value="consulting">Consulting</option>
+                <option value="development">Development</option>
+                <option value="design">Design</option>
+            </select>
+
+            <button type="reset">Reset</button>
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+
+    <footer>
+        <p><em>“Because every leap is a step toward greatness!”</em> Website designed by Amin Saadaoui. © 2024</p>
+        <nav>
+                <ul>
+                    <li><a href="https://validator.w3.org/">HTML Validation</a></li>
+                    <li><a href="https://jigsaw.w3.org/css-validator/">CSS Validation</a></li>
+                </ul>
+        </nav>
+    </footer>
+</body>
+</html>

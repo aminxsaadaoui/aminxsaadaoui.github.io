@@ -1,0 +1,199 @@
+/* General styles for full page layout */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    background-image: url('images/website_background.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    color: #f4f4f4;
+}
+
+/* Header styles */
+header {
+    background-color: #D96846;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+}
+
+/* Main content styles */
+main {
+    flex-grow: 1; 
+    background: rgba(0, 0, 0, 0.6);
+    padding: 30px;
+    margin: 50px auto;
+    max-width: 800px;
+    border-radius: 10px;
+}
+
+h2 {
+    color: #ffcc00;
+    text-align: center;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+figure {
+    display: block;
+    text-align: center;
+}
+
+img {
+    max-width: 200px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+figcaption {
+    font-style: italic;
+    color: #ffcc00;
+}
+
+ul, li {
+    font-size: 1.1em;
+    line-height: 1.5;
+    color: #f4f4f4;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    background-color: #D96846;
+    width: 100%;
+    color: white;
+    padding: 20px 0; 
+    position: relative; 
+}
+
+ul li a {
+    color: #ffffff; 
+    text-decoration: none; 
+}
+
+ul li a:hover {
+    color: #cccccc; 
+    text-decoration: underline;
+}
+
+/* Form and input styles */
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Apply CSS properties to input elements */
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+    font-size: 16px; /* Font size */
+    color: #333;     /* Text color */
+    padding: 10px;   /* Padding */
+    border: 2px solid #ccc; /* Border style */
+}
+
+/* Fieldset and checkbox styling */
+fieldset {
+    border: none;
+    margin-bottom: 15px;
+}
+
+legend {
+    font-weight: bold;
+}
+
+label input[type="checkbox"],
+label input[type="radio"] {
+    margin-right: 5px;
+}
+
+/* Button styling */
+button[type="submit"],
+button[type="reset"] {
+    background-color: #333; /* Dark background */
+    color: white;           /* Light text */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button[type="submit"]:hover,
+button[type="reset"]:hover {
+    background-color: #555; 
+}
+
+footer p {
+    font-style: italic; 
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+table, th, td {
+    border: 2px solid white; 
+    padding: 8px;
+}
+th {
+    background-color: #4CAF50; 
+    color: white;
+}
+td {
+    text-align: left;
+}
+caption {
+    caption-side: top;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
