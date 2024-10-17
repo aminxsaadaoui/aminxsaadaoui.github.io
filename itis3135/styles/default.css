@@ -196,7 +196,6 @@ caption {
     #colorbox {
         height: 100%;
         width: 100%;
-        background-color:green;
     }
 }
 
@@ -204,7 +203,6 @@ caption {
     #colorbox {
         height: 100%;
         width: 100%;
-        background-color:orange;
     }
 }
 
@@ -212,6 +210,5 @@ caption {
     #colorbox {
         height: 100%;
         width: 100%;
-        background-color:red;
     }
 }
