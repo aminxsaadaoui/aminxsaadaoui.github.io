@@ -180,7 +180,7 @@ table, th, td {
     padding: 8px;
 }
 th {
-    background-color: #4CAF50; 
+    background-color: #b86110; 
     color: white;
 }
 td {
@@ -191,6 +191,15 @@ caption {
     font-weight: bold;
     margin-bottom: 10px;
 }
+
+table tr:nth-child(even) {
+    background-color: #d3551700; 
+}
+
+table tr:nth-child(odd) {
+    background-color: #c8a311; 
+}
+
 
 @media screen and ( min-width: 800px ) and ( max-width: 900px ) {
     #colorbox {
