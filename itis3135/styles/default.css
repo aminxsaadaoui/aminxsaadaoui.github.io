@@ -1,4 +1,3 @@
-/* General styles for full page layout */
 html, body {
     height: 100%;
     margin: 0;
@@ -13,9 +12,9 @@ body {
     background-position: center;
     font-family: Arial, sans-serif;
     color: #f4f4f4;
+    
 }
 
-/* Header styles */
 header {
     background-color: #D96846;
     padding: 20px;
@@ -43,7 +42,6 @@ nav ul li a:hover {
     color: #ffcc00;
 }
 
-/* Main content styles */
 main {
     flex-grow: 1; 
     background: rgba(0, 0, 0, 0.6);
@@ -51,6 +49,7 @@ main {
     margin: 50px auto;
     max-width: 800px;
     border-radius: 10px;
+    margin: 0 auto;
 }
 
 h2 {
@@ -84,7 +83,6 @@ ul, li {
     color: #f4f4f4;
 }
 
-/* Footer styles */
 footer {
     text-align: center;
     background-color: #D96846;
@@ -104,14 +102,13 @@ ul li a:hover {
     text-decoration: underline;
 }
 
-/* Form and input styles */
 form {
     background-color: #fff;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     max-width: 400px;
-    margin: auto;
+    margin: 0 auto;
 }
 
 label {
@@ -131,17 +128,15 @@ select {
     border-radius: 4px;
 }
 
-/* Apply CSS properties to input elements */
 input[type="text"],
 input[type="email"],
 input[type="tel"] {
-    font-size: 16px; /* Font size */
-    color: #333;     /* Text color */
-    padding: 10px;   /* Padding */
-    border: 2px solid #ccc; /* Border style */
+    font-size: 16px; 
+    color: #333;     
+    padding: 10px;   
+    border: 2px solid #ccc;
 }
 
-/* Fieldset and checkbox styling */
 fieldset {
     border: none;
     margin-bottom: 15px;
@@ -156,11 +151,10 @@ label input[type="radio"] {
     margin-right: 5px;
 }
 
-/* Button styling */
 button[type="submit"],
 button[type="reset"] {
-    background-color: #333; /* Dark background */
-    color: white;           /* Light text */
+    background-color: #333; 
+    color: white;           
     border: none;
     padding: 10px 20px;
     cursor: pointer;
@@ -196,4 +190,28 @@ caption {
     caption-side: top;
     font-weight: bold;
     margin-bottom: 10px;
+}
+
+@media screen and ( min-width: 800px ) and ( max-width: 900px ) {
+    #colorbox {
+        height: 100%;
+        width: 100%;
+        background-color:green;
+    }
+}
+
+@media screen and ( min-width: 700 ) and ( max-width: 800px )  {
+    #colorbox {
+        height: 100%;
+        width: 100%;
+        background-color:orange;
+    }
+}
+
+@media screen and ( min-width: 370px ) and ( max-width: 700px ) {
+    #colorbox {
+        height: 100%;
+        width: 100%;
+        background-color:red;
+    }
 }
